@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(https://unsplash.com/fr/photos/une-peinture-dun-pont-de-pierre-au-dessus-dune-riviere-moXrnaWjwNU); /* Remplace par l'URL de l'image d'arrière-plan */
+    background-image: url('URL_DE_L_IMAGE_D_ARRIERE_PLAN'); /* Remplace par l'URL de l'image d'arrière-plan */
     background-size: cover; /* Pour couvrir toute la page */
     background-position: center; /* Centrer l'image */
 }
@@ -16,6 +16,21 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none; /* Enlever les puces */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Affichage horizontal */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 h1, h2 {
     margin: 0;
 }
@@ -24,6 +39,7 @@ main {
     padding: 20px;
     background: rgba(255, 255, 255, 0.8); /* Fond blanc avec transparence pour le contraste */
     border-radius: 8px;
+    margin: 20px;
 }
 
 section {
