@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(); /* Remplace par l'URL de l'image d'arrière-plan */
+    background-image: url(catherine-kay-greenup-moXrnaWjwNU-unsplash.jpg); /* Remplace par l'URL de l'image d'arrière-plan */
     background-size: cover; /* Pour couvrir toute la page */
     background-position: center; /* Centrer l'image */
     color: #333; /* Couleur du texte par défaut */
