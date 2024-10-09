@@ -4,11 +4,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(https://unsplash.com/fr/photos/une-peinture-dun-pont-de-pierre-au-dessus-dune-riviere-moXrnaWjwNU); /* Remplace par l'URL de l'image d'arrière-plan */
+    background-size: cover; /* Pour couvrir toute la page */
+    background-position: center; /* Centrer l'image */
 }
 
 header {
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.8); /* Couleur de fond avec transparence */
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -20,12 +22,13 @@ h1, h2 {
 
 main {
     padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fond blanc avec transparence pour le contraste */
+    border-radius: 8px;
 }
 
 section {
     margin: 20px 0;
     padding: 20px;
-    background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -36,12 +39,52 @@ section {
     border-radius: 8px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #35424a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2a2f34; /* Couleur de survol */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.8); /* Couleur de fond avec transparence */
     color: #ffffff;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Styles pour les appareils mobiles */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    section {
+        margin: 10px 0;
+        padding: 10px;
+    }
 }
